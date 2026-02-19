@@ -38,7 +38,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.earn_watching_ads"
-        minSdk = 23
+        minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
