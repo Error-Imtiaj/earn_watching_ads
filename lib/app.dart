@@ -59,13 +59,13 @@ class EarnApp extends StatelessWidget {
         path: AppRoutes.initialRoutePath,
         builder: (context, state) => const SplashScreen(),
       ),
-      // * /LOGIN ROUTES
+      // * LOGIN ROUTE
       GoRoute(
         path: AppRoutes.loginRoutePath,
         name: AppRoutes.loginRouteName,
         builder: (context, state) => const AppLogin(),
         routes: [
-          //? SIGN UP ROUTE
+          //? SIGN UP ROUT
           GoRoute(
             path: AppRoutes.signUpRoutePath,
             name: AppRoutes.signUpRouteName,
@@ -94,7 +94,6 @@ class EarnApp extends StatelessWidget {
         builder: (context, state) => const HomeScreen(),
       ),
 
-      // TODO NAV SCREEN
       GoRoute(
         path: AppRoutes.navScreenPath,
         name: AppRoutes.navScreenRouteName,
