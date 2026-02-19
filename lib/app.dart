@@ -59,7 +59,7 @@ class EarnApp extends StatelessWidget {
         path: AppRoutes.initialRoutePath,
         builder: (context, state) => const SplashScreen(),
       ),
-      // * LOGIN ROUTE
+      // * LOGIN ROUT
       GoRoute(
         path: AppRoutes.loginRoutePath,
         name: AppRoutes.loginRouteName,
